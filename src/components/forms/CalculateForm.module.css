@@ -1,0 +1,33 @@
+.actions {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+}
+
+.fieldset {
+    font-size: 1.6rem;
+    border-radius: 4px;
+    padding: 0 2rem 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid gray;
+}
+
+.fieldset legend {
+    padding: 0 1rem;
+    margin-left: 2rem;
+}
+
+.control {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.error {
+    color: red;
+}
+
+.calculate h2 {
+    margin-bottom: 3rem;
+}

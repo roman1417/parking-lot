@@ -1,0 +1,15 @@
+.areas h2 {
+    margin-bottom: 1em;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .list {
+        grid-template-columns: 1fr;
+    }
+}

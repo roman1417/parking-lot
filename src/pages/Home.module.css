@@ -1,0 +1,17 @@
+.home {
+    margin-bottom: 3rem;
+}
+
+.home a {
+    display: inline-block;
+    background-color: #ebb002;
+    color: #201d0f;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+.home a:hover {
+    background-color: #ebc002;
+}

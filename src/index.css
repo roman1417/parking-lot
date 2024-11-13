@@ -1,0 +1,94 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3.2rem;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 2.4rem;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-bottom: 0.3em;
+}
+
+p,
+a,
+li,
+label {
+    font-size: 1.6rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form select {
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #f7f5ef;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #494844;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: 1.5rem;
+}
+
+form button {
+    font-size: 2rem;
+    background-color: #ebb002;
+    border: none;
+    color: #201d0f;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+}
+
+form button:hover,
+form button:active {
+    background-color: #ebc002;
+}

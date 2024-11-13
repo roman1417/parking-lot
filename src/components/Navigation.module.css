@@ -1,0 +1,41 @@
+.header {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    margin-bottom: 3rem;
+}
+
+.list {
+    display: flex;
+    gap: 4rem;
+}
+
+.list a {
+    position: relative;
+    font-size: 2rem;
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s ease-out;
+}
+
+.list a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 100%;
+    height: 1px;
+    background-color: black;
+    transition: right 0.3s ease-out;
+}
+
+.list a:hover,
+.list a.active {
+    color: black;
+}
+
+.list a:hover::after,
+.list a.active::after {
+    right: 0;
+}
